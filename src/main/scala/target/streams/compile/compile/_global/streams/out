@@ -1,0 +1,31 @@
+[0m[[0m[31merror[0m] [0m[0m/home/sourya/IdeaProjects/SlickProject/src/main/scala/Main.scala:1:8: not found: object slick[0m
+[0m[[0m[31merror[0m] [0m[0mimport slick.jdbc.MySQLProfile.api._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/sourya/IdeaProjects/SlickProject/src/main/scala/Main.scala:7:12: not found: value Database[0m
+[0m[[0m[31merror[0m] [0m[0m  val db = Database.forConfig("mydb")[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/sourya/IdeaProjects/SlickProject/src/main/scala/Main.scala:10:45: not found: type Table[0m
+[0m[[0m[31merror[0m] [0m[0m  final class StudentTable(tag:Tag) extends Table[Student](tag, "student"){[0m
+[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/sourya/IdeaProjects/SlickProject/src/main/scala/Main.scala:10:32: not found: type Tag[0m
+[0m[[0m[31merror[0m] [0m[0m  final class StudentTable(tag:Tag) extends Table[Student](tag, "student"){[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/sourya/IdeaProjects/SlickProject/src/main/scala/Main.scala:10:60: no arguments allowed for nullary constructor Object: ()Object[0m
+[0m[[0m[31merror[0m] [0m[0m  final class StudentTable(tag:Tag) extends Table[Student](tag, "student"){[0m
+[0m[[0m[31merror[0m] [0m[0m                                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/sourya/IdeaProjects/SlickProject/src/main/scala/Main.scala:11:14: not found: value column[0m
+[0m[[0m[31merror[0m] [0m[0m    def id = column[Int]("id", O.PrimaryKey, O.AutoInc)[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/sourya/IdeaProjects/SlickProject/src/main/scala/Main.scala:11:32: not found: value O[0m
+[0m[[0m[31merror[0m] [0m[0m    def id = column[Int]("id", O.PrimaryKey, O.AutoInc)[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/sourya/IdeaProjects/SlickProject/src/main/scala/Main.scala:11:46: not found: value O[0m
+[0m[[0m[31merror[0m] [0m[0m    def id = column[Int]("id", O.PrimaryKey, O.AutoInc)[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/sourya/IdeaProjects/SlickProject/src/main/scala/Main.scala:12:16: not found: value column[0m
+[0m[[0m[31merror[0m] [0m[0m    def name = column[String]("name")[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/sourya/IdeaProjects/SlickProject/src/main/scala/Main.scala:16:18: not found: value TableQuery[0m
+[0m[[0m[31merror[0m] [0m[0m  lazy val stu = TableQuery[StudentTable][0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m10 errors found[0m
